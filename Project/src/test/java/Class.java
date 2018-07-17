@@ -18,6 +18,6 @@ public void newtest() {
 	System.out.println(title);
 	//Assert.assertEquals(title,"Sign in to GitHub · GitHub");
 	Assert.assertEquals(title, "GitHub");
-	System.out.println("valid");
+	System.out.println("validated.....");
 }
 }
