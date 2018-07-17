@@ -16,9 +16,9 @@ public void newtest() {
 	driver.findElement(By.name("commit")).click();
 	String title=driver.getTitle();
 	System.out.println(title);
-	//Assert.assertEquals(title,"Sign in to GitHub · GitHub");
+	//Assert.assertEquals(title,"Sign in to GitHub Â· GitHub");
 	Assert.assertEquals(title, "GitHub");
 	System.out.println("validated");
-	System.out.println("validated");
+	System.out.println("okies");
 }
 }
